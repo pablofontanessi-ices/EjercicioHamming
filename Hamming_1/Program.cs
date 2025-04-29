@@ -21,7 +21,7 @@ namespace Hamming_1
             {
                 for (int i = 0; i <= ADN1.Length; i++)
                 {
-                    if (ADN1.Substring(i) == ADN2.Substring(i))
+                    if (ADN1.Substring(i) != ADN2.Substring(i))
                     {
                         distancia++;
                     }        
